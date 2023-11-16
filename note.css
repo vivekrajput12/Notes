@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(126, 43, 126);
+    /* position: relative; */
+}
+#btn{
+    letter-spacing: 4px;
+    margin-top: 4%;
+    margin-left: 6%;
+    height: 5vh;
+    width: 10vw;
+    background-color: #c2c2c2;
+    border-radius: 22%;
+    &:hover{
+        background-color: black;
+        color: white;
+    }    
+}
+
+.box{
+    /* position: absolute; */
+    width: 35vw;
+    overflow: hidden;
+    height: 30vh;
+    border: 1px solid black;
+    margin-top: 6%;
+    margin-left: 6vw;
+    background-color: white;
+    /* border-radius: 15px; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.box textarea{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 15px; */
+    /* border-radius: 10px 10px 0 0; */
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    border: none;
+    resize: none;
+    font-family: "Lora";
+    font-size: 16px;
+    padding: 10px;
+}
+.box textarea:focus{
+    outline: 0;
+}
+.nav{
+    background-color: rgb(63, 63, 63);
+    height: 5vh;
+    width: 105%;
+    display: flex;
+    align-items: center;
+}
+.save{
+    height: 4vh;
+}
+.nav img{
+        margin-left: 10%;
+        width: 18px;
+        height: 16px;
+}
+
+.img{
+    display: flex;
+    margin-left: 82%;
+}
+
+.part{
+    display: flex;
+}
+.imi{
+    margin-left: 59vw;
+    margin-top: 25vh;
+    height: 60vh;
+    position: fixed;
+}
